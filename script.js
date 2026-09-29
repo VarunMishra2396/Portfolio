@@ -4,7 +4,7 @@ const PROJECTS = [
     name: "Baby-Feed-Tracker",
     tagline: "Fast baby-care logging for exhausted parents.",
     description:
-      "An Android app for fast baby-care logging, clear daily summaries, and pediatrician-ready reporting. Built for speed when you're running on no sleep — log a feed or diaper in seconds and turn it into meaningful trends over the last 24 hours.",
+      "An Android app for fast baby-care logging, clear daily summaries, and pediatrician-ready reporting. Built for speed when you're running on no sleep, log a feed or diaper in seconds and turn it into meaningful trends over the last 24 hours.",
     stack: ["Kotlin", "Android", "Gradle", "Firebase"],
     lang: "Kotlin",
     isPrivate: true,
@@ -21,7 +21,7 @@ const PROJECTS = [
     name: "finance-app",
     tagline: "Personal finance tracking on the go.",
     description:
-      "A cross-platform personal finance app built with Expo and React Native, backed by Supabase. Track income, expenses and spending patterns from your phone — one codebase running on Android, iOS and the web.",
+      "A cross-platform personal finance app built with Expo and React Native, backed by Supabase. Track income, expenses and spending patterns from your phone, one codebase running on Android, iOS and the web.",
     stack: ["TypeScript", "Expo", "React Native", "Supabase"],
     lang: "TypeScript",
     isPrivate: true,
@@ -77,16 +77,16 @@ const PROJECTS = [
   },
   {
     name: "Portfolio",
-    tagline: "This site — my corner of the web.",
+    tagline: "This site, my corner of the web.",
     description:
-      "My personal portfolio: a fast, responsive single page built with plain HTML, CSS and JavaScript, hosted free on GitHub Pages. No build step, no framework — just the web platform.",
+      "My personal portfolio: a fast, responsive single page built with plain HTML, CSS and JavaScript, hosted free on GitHub Pages. No build step, no framework, just the web platform.",
     stack: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     lang: "CSS",
     isPrivate: false,
     url: "https://github.com/VarunMishra2396/Portfolio",
     highlights: [
       "Responsive, mobile-first design",
-      "Zero build step — pure static hosting",
+      "Zero build step, pure static hosting",
     ],
   },
 ];
@@ -128,7 +128,7 @@ function openModal(i) {
     ${p.highlights.length ? `<h4>Highlights</h4><ul>${p.highlights.map((h) => `<li>${h}</li>`).join("")}</ul>` : ""}
     <div class="modal-actions">
       <a href="${p.url}" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub</a>
-      ${p.isPrivate ? `<span class="modal-note">Private repo — visible to collaborators only.</span>` : ""}
+      ${p.isPrivate ? `<span class="modal-note">Private repo, visible to collaborators only.</span>` : ""}
     </div>`;
   overlay.classList.add("open");
   overlay.setAttribute("aria-hidden", "false");
